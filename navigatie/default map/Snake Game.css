@@ -1,0 +1,126 @@
+body{
+    background-image: url("Hills Map.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+#mult{
+    text-decoration: none;
+    margin-left: 1em;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#score1{
+    background-color: white;
+    font-family: candara;
+    font-weight: bold;
+    color: green;
+    padding: 1vh;
+    border: solid;
+    border-radius: 4px;
+    border-color: rgb(2, 122, 72) ;
+
+}
+#score2{
+    font-family: candara;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 1vh;
+    border: solid;
+    border-color: rgb(0, 0, 255) ;
+    border-radius: 4px;
+}
+#green{
+    color: black;
+    display: none;
+    font-family: candara;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+}
+#kleur1{
+    color: green;
+}
+#blue{
+    color: black;
+    display: none;
+    font-family: candara;
+    font-size: 50px;
+    font-weight: bolder;
+    position: absolute;
+}
+#kleur2{
+    color: blue;
+}
+#canvas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#gameBoard{
+    background-image: url("Mountain.png");
+    background-size: cover;
+}
+#score{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 17em;
+    justify-content: center;
+}
+#alles{
+    background-color: #1a120b;
+    box-shadow: 0 2px 25px #ffffff;
+    border: 5px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.buttonn{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    margin-right: 1em;
+    display: flex;
+    font-size: 11px;
+    padding: 1.7em 4.3em;
+    background: #ff1876;
+    color: #fff;
+    font-family:Arial;
+    font-weight:bold;
+    border-radius: 2.5em;
+    border:  none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 25px rgba(#fff);
+    transition:box-shadow 0.25s;
+    border-color:aliceblue;
+    position: absolute;
+    
+}
+
+
+
+.btn:hover {
+
+    background-color: #FCC6C2 ;
+
+}
